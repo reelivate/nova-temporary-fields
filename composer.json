@@ -1,5 +1,5 @@
 {
-    "name": "ganyicz/nova-temporary-fields",
+    "name": "reelivate/nova-temporary-fields",
     "description": "Make Laravel Nova fields temporary",
     "license": "MIT",
     "authors": [
@@ -10,13 +10,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ganyicz\\NovaTemporaryFields\\": "src/"
+            "Reelivate\\NovaTemporaryFields\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ganyicz\\NovaTemporaryFields\\TemporaryFieldsServiceProvider"
+                "Reelivate\\NovaTemporaryFields\\TemporaryFieldsServiceProvider"
             ]
         }
     },
@@ -26,6 +26,6 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^7.2.5|^8.0",
-        "laravel/nova": "^3.0"
+        "laravel/nova": "^3.0|^4.0"
     }
 }

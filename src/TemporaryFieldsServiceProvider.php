@@ -1,6 +1,6 @@
 <?php
 
-namespace Ganyicz\NovaTemporaryFields;
+namespace Reelivate\NovaTemporaryFields;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Fields\Field;
