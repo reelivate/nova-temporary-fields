@@ -6,7 +6,7 @@ This package adds support for creating fields you don't want to persist in your 
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\Text;
-use Ganyicz\NovaTemporaryFields\HasTemporaryFields;
+use Reelivate\NovaTemporaryFields\HasTemporaryFields;
 
 class User extends Resource
 {
@@ -46,7 +46,7 @@ What if you just wanted to have a price field for every currency, right inside y
 ```php
 use Illuminate\Http\Request;
 use Ganyicz\NovaCallbacks\HasCallbacks;
-use Ganyicz\NovaCallbacks\HasTemporaryFields;
+use Reelivate\NovaTemporaryFields\HasTemporaryFields;
 
 class User extends Resource
 {

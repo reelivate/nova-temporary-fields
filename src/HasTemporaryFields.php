@@ -1,6 +1,6 @@
 <?php
 
-namespace Ganyicz\NovaTemporaryFields;
+namespace Reelivate\NovaTemporaryFields;
 
 use Laravel\Nova\Http\Requests\NovaRequest;
 
